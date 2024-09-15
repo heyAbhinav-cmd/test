@@ -1,0 +1,209 @@
+.container {
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+}
+
+*{
+  font-family: 'Roboto' , sans-serif;
+  color: black;
+}
+
+.pi {
+  font-family: 'PrimeIcons', sans-serif; 
+  color: white;
+}
+
+.p-button {
+  font-family: 'Roboto', sans-serif; 
+}
+
+.date-input {
+  width: 100%;
+}
+
+.task-header {
+  font-weight: bold;
+  color: #333;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+.leftDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  width: 200px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.empty-spinner {
+  text-align: right;
+  width: 100px;
+  font-size: 2rem;
+  color: var(--primary-400);
+  gap: 3rem;
+}
+
+.empty-text {
+  font-size: 1.25rem;
+  color: var(--primary-400);
+  margin-top: 1rem;
+}
+
+.task-dialog {
+  width: 80vw;
+}
+
+.p-field label {
+  font-weight: bold;
+}
+
+.search-group {
+  display: flex;
+  align-items: center;
+}
+
+.mainDiv{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.leftDiv{
+  flex: 1 1 40rem;
+}
+
+.rightDiv{
+  flex: 1 1 40rem;
+}
+
+.checkbox{
+  font-size: 1.5rem;
+}
+
+.p-fluid {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem; 
+}
+
+.dialogButton {
+  grid-column: span 2; 
+  display: flex;
+  justify-content: flex-end; 
+  gap: 1rem;
+}
+
+.p-dialog .p-dialog-header {
+  text-align: center;
+}
+
+
+.date-wrapper {
+  position: relative;
+}
+
+.date-input {
+  padding-right: 2.5rem; /* Add space for the calendar icon */
+}
+
+.p-calendar .p-inputtext {
+  width: 100%;
+}
+
+.p-calendar .p-datepicker {
+  width: 300px !important; /* Specify the width of the popup calendar */
+}
+
+.p-datepicker {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.p-datepicker-header {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 10px;
+}
+
+.p-datepicker td {
+  padding: 8px;
+}
+
+.p-calendar .p-datepicker .p-datepicker-title {
+  font-size: 1.2rem;
+}
+
+.p-calendar .p-datepicker-prev, 
+.p-calendar .p-datepicker-next {
+  top: 10px;
+}
+
+.p-calendar .p-datepicker .p-datepicker-today {
+  background-color: #007ad9;
+  color: white;
+}
+
+.required-icon{
+  color: red;
+}
+
+label{
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  margin-top: -1rem;
+}
+
+h4{
+  font-size: 1rem;
+  margin-top: -2rem;
+}
+
+.hamburger{
+  font-size: 5rem;
+  margin-right: .8rem;
+}
+
+.addButtons{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 20rem;
+}
+
+.rightDiv{
+  text-align: right;
+}
+
+.search-box{
+  margin-right: 3.5rem;
+}
+
+.search-button{
+  height: 2.3rem;
+  width: 15.3rem;
+  outline: none;
+  border: 1px solid black;
+  font-size: .9rem;
+  padding: 0rem 1rem ;
+}
+
+
+.table{
+  margin-top: 1.5rem;
+}
